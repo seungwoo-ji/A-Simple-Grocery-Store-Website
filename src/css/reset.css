@@ -1,0 +1,76 @@
+/* margin reset */
+* {
+  box-sizing: border-box;
+}
+
+body,
+div,
+ul,
+li,
+dl,
+dt,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+legend,
+p,
+select,
+table,
+th,
+td,
+tr,
+textarea,
+button,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* a link reset */
+a {
+  color: #222;
+  text-decoration: none;
+}
+a:hover {
+  color: #390;
+}
+
+/* font reset */
+body,
+input,
+textarea,
+select,
+button,
+table {
+  font-family: "Open Sans", sans-serif;
+  color: #222;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+em.address {
+  font-style: normal;
+}
+
+ul,
+li,
+ol {
+  list-style-position: none;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: 13px;
+  font-weight: normal;
+}

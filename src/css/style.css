@@ -1,0 +1,440 @@
+/** Add any CSS you need to this file. */
+/* layout */
+body {
+  background: #e8f5e9;
+}
+
+#wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#wrap > h1 {
+  font-size: 0;
+}
+
+#header {
+  background: #004445;
+}
+
+/* container */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.c_container {
+  border: 2px solid #004445;
+  font-size: 1.2em;
+  margin: 1%;
+  width: 83.4%;
+}
+
+.space {
+  padding: 5%;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  height: 60px;
+}
+
+.header .header_title {
+  text-align: left;
+  float: left;
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.header .header_title h1 {
+  padding-left: 10px;
+  padding-top: 0.12em;
+  color: #fff;
+  font-family: "Baloo Bhaina 2", cursive;
+  font-size: 2.8em;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.header .header_title img {
+  display: inline-block;
+}
+
+.header .header_menu {
+  text-align: right;
+  float: left;
+  width: 50%;
+}
+
+.header .header_menu a {
+  color: #fff;
+  padding: 20px;
+  transition: color 0.3s ease;
+  font-size: 1em;
+  font-family: "Baloo Bhaina 2", cursive;
+  display: inline-block;
+}
+
+.header .header_menu a:hover {
+  color: #ccc;
+}
+
+/* content */
+#content {
+  overflow: auto;
+}
+
+/* products */
+#category {
+  float: left;
+  width: 20%;
+  background: #00796b;
+}
+
+#category .container {
+  padding: 20px;
+}
+
+#category .container .p_title {
+  font-style: 20px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 15px;
+  font-family: "Abel", sans-serif;
+}
+
+/* menu */
+.menu li a {
+  font-size: 18px;
+  font-family: "Abel", sans-serif;
+  color: #fff;
+  display: block;
+  padding-top: 11px;
+  border-bottom: 1px dashed #fff;
+  transition: box-shadow 0.34s ease, background 0.34s ease;
+}
+
+.menu li a:hover {
+  box-shadow: inset 120px 0 0 0 #00bfa5;
+  color: #fff;
+  background: #00bfa5;
+}
+
+/* item */
+#main_content {
+  float: left;
+  width: 80%;
+  background: #fff;
+}
+
+.list_title {
+  padding: 20px 0 0 20px;
+}
+
+.list_title h2 {
+  font-family: "Baloo Bhaina 2", cursive;
+  font-size: 23px;
+  color: #004445;
+}
+
+#main_content .itemlist {
+  padding: 0 20px 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 20px 0;
+}
+
+.item img {
+  display: block;
+}
+
+.item .p_cat {
+  display: block;
+  font-size: 0.8em;
+}
+
+.item .p_name {
+  display: block;
+  margin-top: -0.3em;
+  font-size: 1.3em;
+}
+
+.item .p_desc {
+  display: block;
+  padding: 20px 0;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.item .p_price {
+  display: block;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+/* footer */
+.footer {
+  clear: both;
+  width: 100%;
+  height: 130px;
+  background: #57a99a;
+  text-align: center;
+  white-space: space nowrap;
+  padding: 30px 50px;
+}
+
+.footer li {
+  position: relative;
+  display: inline;
+  padding: 0 7px 0 10px;
+}
+
+.footer li:before {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background-color: #dbdbdb;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+.footer li:first-child::before {
+  width: 0;
+}
+
+.footer p {
+  padding-top: 15px;
+}
+
+/* subscribe */
+.subscribe {
+  position: fixed;
+  width: 40%;
+  left: 50%;
+  margin-left: -20%;
+  height: 300px;
+  top: 50%;
+  margin-top: -150px;
+  overflow: auto;
+
+  background: #004d40;
+  border: 3px solid #ccc;
+}
+
+.sub_btn1 {
+  text-align: right;
+  padding: 10px;
+  height: 20%;
+}
+
+.sub_btn1 a {
+  color: #ccc;
+  font-family: "Baloo Bhaina 2", cursive;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.subscribe form {
+  padding: 0 10% 10% 10%;
+  height: 80%;
+}
+
+.sub_title {
+  font-size: 1.9em;
+  font-family: "Baloo Bhaina 2", cursive;
+  color: #fff;
+}
+
+.subscribe form input {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  font-family: "Baloo Bhaina 2", cursive;
+  color: #00796b;
+}
+
+.submit {
+  font-weight: bold;
+}
+
+/* Contact */
+#c_content {
+  background: #00796b;
+  width: 100%;
+}
+
+.contact_title {
+  text-align: center;
+  padding: 5%;
+}
+
+.contact_title h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.contact_title p {
+  font-size: 1.2em;
+  font-style: italic;
+  padding-bottom: 1em;
+  border-bottom: 1px solid;
+  border-width: 0.2em;
+}
+
+.c_name {
+  text-align: center;
+}
+
+.c_name #first_name {
+  width: 40%;
+}
+
+.c_name #last_name {
+  width: 40%;
+  margin-left: 2%;
+}
+
+.c_address {
+  text-align: center;
+}
+
+.c_address input {
+  display: inline-block;
+}
+
+.c_city {
+  text-align: center;
+}
+
+.c_pnum {
+  text-align: center;
+}
+
+.c_pos {
+  text-align: center;
+}
+
+.c_checkbox {
+  padding-top: 3%;
+}
+
+.c_checkbox label {
+  margin-left: 8.4%;
+  border: none;
+}
+
+.c_rtitle {
+  margin-left: 8.4%;
+  border: none;
+}
+
+.c_radio {
+  margin-left: 4.4%;
+  border: none;
+}
+
+.c_questionwrap {
+  margin-left: 8.4%;
+  padding-top: 3%;
+}
+
+#q_title {
+  display: inline;
+  margin: 0;
+}
+
+#q_choices {
+  display: inline;
+  text-align: right;
+}
+
+.c_message {
+  text-align: center;
+  border: none;
+  margin-left: 8.4%;
+}
+
+#message {
+  height: 300px;
+  width: 100%;
+  font-size: 1.1em;
+  border: 2px solid #004445;
+}
+
+.c_sendForm {
+  text-align: center;
+  margin-left: 8.4%;
+  border: none;
+}
+
+.c_sendForm input {
+  width: 10%;
+}
+
+/* order number */
+.o_number {
+  text-align: center;
+}
+
+/* media query */
+/* display width 0 ~ 1200px */
+@media (max-width: 1220px) {
+  #wrap {
+    width: 95%;
+  }
+}
+
+/* display width 0 ~ 768px */
+@media (max-width: 768px) {
+  #wrap {
+    width: 100%;
+  }
+
+  .subscribe {
+    width: 60%;
+    margin-left: -30%;
+  }
+}
+
+/* display width 0 ~ 480px */
+@media (max-width: 480px) {
+  #wrap {
+    width: 100%;
+  }
+
+  .header .header_title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header .header_title img {
+    display: none;
+  }
+
+  .header .header_menu {
+    display: none;
+  }
+
+  #category {
+    float: none;
+    width: 100%;
+  }
+
+  #main_content {
+    float: none;
+    width: 100%;
+  }
+
+  .subscribe {
+    width: 80%;
+    margin-left: -40%;
+  }
+}
