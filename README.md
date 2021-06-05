@@ -1,4 +1,4 @@
-# WEB-222-NFF
+# A Simple Grocery Store Website
 
 ![Webpage Preview](/overview.JPG)
 [Click here to go to the website](https://seungwooji.netlify.app)
@@ -7,7 +7,7 @@ Thie website is designed for a imaginary grocery store, Parayo, to sell a number
 
 ##
 
-In this assignment, I learned:
+By making this static website, I learned:
 
 * proper Viewport settings for mobile device width and scaling
 * Flexible CSS sizes for widths, heights, and fonts that work relative to the available space
